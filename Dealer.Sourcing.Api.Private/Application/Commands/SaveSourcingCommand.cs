@@ -1,8 +1,7 @@
 ﻿using Dealer.Sourcing.Api.Private.Application.Tech.MediatR;
 using Dealer.Sourcing.Api.Private.Application.Tech.Validation;
-using System.Threading.Tasks;
 using Dealer.Sourcing.Infrastructure.Repository;
-using Dealer.Sourcing.Infrastructure.Repository.Tech;
+using System.Threading.Tasks;
 
 namespace Dealer.Sourcing.Api.Private.Application.Commands
 {
@@ -12,8 +11,13 @@ namespace Dealer.Sourcing.Api.Private.Application.Commands
 
     public class SaveSourcingCommandHandler : BaseCommandHandler<SaveSourcingCommand>
     {
-       // private IRepository<Sourcing> _repository;
         private ISourcingRepository _sourcingRepository;
+
+        public SaveSourcingCommandHandler(ISourcingRepository sourcingRepository)
+        {
+            _sourcingRepository = sourcingRepository;
+        }
+
         public override async Task Validate(ValidationContext validationContext)
         {
         }

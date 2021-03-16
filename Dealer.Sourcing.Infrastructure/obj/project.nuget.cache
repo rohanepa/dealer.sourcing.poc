@@ -1,14 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NX/7UsmV4ZxQ4P/sNQONgyBxZ/b2NGNabkzlbh/ykTslOJeFc+/hxE34v8HEJ/atkLRDGYCyhEvIewfCOfDm9w==",
+  "dgSpecHash": "xH64m2W7kmw5IlwFq/qgjryGUNEhBGgaLJJgSO1QoVAIEn66rgHB4Iozko3sdd3rVSZ8dDYA3dPYZUDaz3utXA==",
   "success": true,
   "projectFilePath": "C:\\Work\\Carsales\\Sourcing\\POC\\dealer.sourcing.poc\\Dealer.Sourcing.Infrastructure\\Dealer.Sourcing.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rohan.epa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\rohan.epa\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\dapper.contrib\\2.0.78\\dapper.contrib.2.0.78.nupkg.sha512",
     "C:\\Users\\rohan.epa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\rohan.epa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\rohan.epa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\npgsql\\5.0.3\\npgsql.5.0.3.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

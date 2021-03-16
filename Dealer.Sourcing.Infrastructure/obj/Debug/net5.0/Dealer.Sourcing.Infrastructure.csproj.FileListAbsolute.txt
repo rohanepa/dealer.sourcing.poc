@@ -28,3 +28,5 @@ C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure\obj\Debug\net5.0\Dealer.Sourcing.Infrastructure.dll
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure\obj\Debug\net5.0\ref\Dealer.Sourcing.Infrastructure.dll
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure\obj\Debug\net5.0\Dealer.Sourcing.Infrastructure.pdb
+C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Infrastructure\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.xml

@@ -24,7 +24,13 @@ namespace Dealer.Sourcing.Api.Private
         {
             //Configure Mediator
             services.AddMediatR(typeof(Startup));
+
+            //Register Repositories
             services.RegisterAllRepositories(typeof(IRepository<>).Assembly);
+
+            DapperConfig.Configure(services);
+
+            services.AddAutoMapper(typeof(Infrastructure.Mappers.SourcingMapper));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
