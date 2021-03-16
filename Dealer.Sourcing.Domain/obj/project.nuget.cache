@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mcn9jaBgG6GxCALGQ7Ejo1xI9NmtOlmIWeJQnEyqKVv4c/EaY0C9H0EVjOEs41/X47urt3XwACyAtYm1tFIf8Q==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

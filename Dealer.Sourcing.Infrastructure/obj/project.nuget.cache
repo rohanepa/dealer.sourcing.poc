@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "TIJI6R23bWtk22pM4nB3FZhOo5VHv+0hBwxxpZilJT9j0Bc2lFHPRKgBFoacD6yegDSk4LG/jMicBbC5li4uMw==",
+  "success": true,
+  "projectFilePath": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Infrastructure\\Dealer.Sourcing.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\dapper\\2.0.78\\dapper.2.0.78.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\rohan.epa\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

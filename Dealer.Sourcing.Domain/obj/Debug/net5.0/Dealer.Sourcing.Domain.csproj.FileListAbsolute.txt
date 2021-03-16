@@ -1,0 +1,12 @@
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\bin\Debug\net5.0\Dealer.Sourcing.Domain.deps.json
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\bin\Debug\net5.0\Dealer.Sourcing.Domain.dll
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\bin\Debug\net5.0\ref\Dealer.Sourcing.Domain.dll
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\bin\Debug\net5.0\Dealer.Sourcing.Domain.pdb
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.csprojAssemblyReference.cache
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.AssemblyInfoInputs.cache
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.AssemblyInfo.cs
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.csproj.CoreCompileInputs.cache
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.dll
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\ref\Dealer.Sourcing.Domain.dll
+C:\Work\Carsales\Sourcing\ArchPoc\Dealer.Sourcing\Dealer.Sourcing.Domain\obj\Debug\net5.0\Dealer.Sourcing.Domain.pdb
