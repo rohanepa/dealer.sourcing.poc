@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mcn9jaBgG6GxCALGQ7Ejo1xI9NmtOlmIWeJQnEyqKVv4c/EaY0C9H0EVjOEs41/X47urt3XwACyAtYm1tFIf8Q==",
+  "dgSpecHash": "PtxR84ZEzykyC3GN2eCppz9ELKQVJG8SVg2ZK7JZhubUXNtCyKGwJrQywuK+EY9GJw51JufRu0mgRXcHZ0Wuqw==",
   "success": true,
-  "projectFilePath": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
+  "projectFilePath": "C:\\Work\\Carsales\\Sourcing\\POC\\dealer.sourcing.poc\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rohan.epa\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
   ],

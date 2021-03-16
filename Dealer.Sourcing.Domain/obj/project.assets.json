@@ -46,11 +46,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
+      "projectUniqueName": "C:\\Work\\Carsales\\Sourcing\\POC\\dealer.sourcing.poc\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
       "projectName": "Dealer.Sourcing.Domain",
-      "projectPath": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
+      "projectPath": "C:\\Work\\Carsales\\Sourcing\\POC\\dealer.sourcing.poc\\Dealer.Sourcing.Domain\\Dealer.Sourcing.Domain.csproj",
       "packagesPath": "C:\\Users\\rohan.epa\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\Carsales\\Sourcing\\ArchPoc\\Dealer.Sourcing\\Dealer.Sourcing.Domain\\obj\\",
+      "outputPath": "C:\\Work\\Carsales\\Sourcing\\POC\\dealer.sourcing.poc\\Dealer.Sourcing.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

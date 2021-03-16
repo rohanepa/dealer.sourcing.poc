@@ -1,4 +1,5 @@
 ﻿using Dealer.Sourcing.Api.Private.Application.Commands;
+using Dealer.Sourcing.Api.Private.Application.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -16,7 +17,7 @@ namespace Dealer.Sourcing.Api.Private.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(Guid id)
         {
-            return null;
+            return Ok(await Mediator.Send(new GetSourcingRecordByIdQuery(id)));
         }
 
         [HttpPost]

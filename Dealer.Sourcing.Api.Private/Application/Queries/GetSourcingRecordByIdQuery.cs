@@ -1,4 +1,5 @@
 ﻿using Dealer.Sourcing.Api.Private.Application.Dtos;
+using Dealer.Sourcing.Infrastructure.Repository;
 using MediatR;
 using System;
 using System.Threading;
@@ -18,14 +19,17 @@ namespace Dealer.Sourcing.Api.Private.Application.Queries
 
     public class GetSourcingRecordByIdQueryHandler : IRequestHandler<GetSourcingRecordByIdQuery, SourcingDto>
     {
-        public GetSourcingRecordByIdQueryHandler()
-        {
+        private readonly ISourcingRepository _sourcingRepository;
 
+        public GetSourcingRecordByIdQueryHandler(ISourcingRepository sourcingRepository)
+        {
+            _sourcingRepository = sourcingRepository;
         }
 
         public async Task<SourcingDto> Handle(GetSourcingRecordByIdQuery request, CancellationToken cancellationToken)
         {
-            throw new System.NotImplementedException();
+            await _sourcingRepository.FindById(request.SourcingId);
+            return null;
         }
     }
 }

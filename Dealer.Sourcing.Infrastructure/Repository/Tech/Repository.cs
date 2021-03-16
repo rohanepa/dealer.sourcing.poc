@@ -2,7 +2,7 @@
 
 namespace Dealer.Sourcing.Infrastructure.Repository.Tech
 {
-    public interface IRepository<TAggregate> where TAggregate : class, IAggregateRoot
+    public class Repository<TAggregate> : IRepository<TAggregate> where TAggregate : class, IAggregateRoot
     {
     }
 }

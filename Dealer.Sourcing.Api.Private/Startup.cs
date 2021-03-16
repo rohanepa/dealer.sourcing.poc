@@ -1,3 +1,5 @@
+using Dealer.Sourcing.Api.Private.Config.IoC;
+using Dealer.Sourcing.Infrastructure.Repository.Tech;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -22,6 +24,7 @@ namespace Dealer.Sourcing.Api.Private
         {
             //Configure Mediator
             services.AddMediatR(typeof(Startup));
+            services.RegisterAllRepositories(typeof(IRepository<>).Assembly);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
