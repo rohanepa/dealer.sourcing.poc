@@ -1,4 +1,5 @@
 ﻿using Dealer.Sourcing.Api.Private.Application.Commands;
+using Dealer.Sourcing.Api.Private.Application.Dtos;
 using Dealer.Sourcing.Api.Private.Application.Queries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -21,9 +22,9 @@ namespace Dealer.Sourcing.Api.Private.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Post()
+        public async Task<IActionResult> Post(SourcingDto sourcing)
         {
-            var result = await Mediator.Send(new SaveSourcingCommand());
+            await Mediator.Send(new CreateSourcingCommand(sourcing));
             return Ok();
         }
     }

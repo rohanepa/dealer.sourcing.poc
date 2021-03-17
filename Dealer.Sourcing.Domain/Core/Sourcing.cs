@@ -32,5 +32,10 @@ namespace Dealer.Sourcing.Domain.Core
             var appraisal = Appraisal.Create(valuation);
             _appraisals.Add(appraisal);
         }
+
+        public static Sourcing Create()
+        {
+            return new Sourcing { Id = Guid.NewGuid() };
+        }
     }
 }

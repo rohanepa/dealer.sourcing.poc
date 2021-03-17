@@ -1,3 +1,4 @@
+using Dealer.Sourcing.Api.Private.Application.Mappers;
 using Dealer.Sourcing.Api.Private.Config.IoC;
 using Dealer.Sourcing.Infrastructure.Repository.Tech;
 using MediatR;
@@ -30,7 +31,7 @@ namespace Dealer.Sourcing.Api.Private
 
             DapperConfig.Configure(services);
 
-            services.AddAutoMapper(typeof(Infrastructure.Mappers.SourcingMapper));
+            services.AddAutoMapper(typeof(Infrastructure.Mappers.SourcingMapper), typeof(Mapper));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

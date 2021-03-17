@@ -5,12 +5,14 @@ namespace Dealer.Sourcing.Infrastructure.Mappers
 {
     public class SourcingMapper : Profile
     {
-        protected SourcingMapper()
+        public SourcingMapper()
         {
             ShouldMapField = fieldInfo => true;
 
             CreateMap<Appraisal, Models.Appraisal>().ReverseMap();
-            CreateMap<Domain.Core.Sourcing, Models.Sourcing>().ReverseMap();
+            CreateMap<Models.Sourcing, Domain.Core.Sourcing>()
+                .ForMember(dst => dst.Appraisals, opt => opt.MapFrom(src => src.Appraisals))
+                .ReverseMap();
         }
     }
 }

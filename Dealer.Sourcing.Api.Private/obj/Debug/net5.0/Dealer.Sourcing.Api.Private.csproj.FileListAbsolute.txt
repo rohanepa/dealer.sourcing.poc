@@ -74,3 +74,4 @@ C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Api.Private\ob
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Api.Private\obj\Debug\net5.0\Dealer.Sourcing.Api.Private.genruntimeconfig.cache
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Api.Private\bin\Debug\net5.0\Dapper.Contrib.dll
 C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Api.Private\bin\Debug\net5.0\Npgsql.dll
+C:\Work\Carsales\Sourcing\POC\dealer.sourcing.poc\Dealer.Sourcing.Api.Private\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
