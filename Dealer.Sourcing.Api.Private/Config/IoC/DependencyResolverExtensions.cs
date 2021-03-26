@@ -81,21 +81,7 @@ namespace Dealer.Sourcing.Api.Private.Config.IoC
             }
         }
     }
-    //public static class DependencyInjectionExtensions
-    //{
-    //    /// <summary>
-    //    /// Extension class
-    //    /// </summary>
-    //    /// <param name="services"></param>
-    //    public static void ConfigureDependencyInjection(this IServiceCollection services)
-    //    {
-    //        // Reference DI
-    //        services.RegisterAssemblies(DependencyLifetime.Scoped,
-    //            new[] { "Carsales.Service", "Carsales.Repository", "Carsales.API" },
-    //          new[] { typeof(IService), typeof(IRepository<>), typeof(IValidator) }
-    //        );
-    //    }
-    //}
+
     public enum DependencyLifetime
     {
         Transient,

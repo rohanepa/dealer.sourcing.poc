@@ -1,5 +1,6 @@
 using Dealer.Sourcing.Api.Private.Application.Mappers;
 using Dealer.Sourcing.Api.Private.Config.IoC;
+using Dealer.Sourcing.Api.Private.Config.Middlewares;
 using Dealer.Sourcing.Infrastructure.Repository.Tech;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
@@ -49,6 +50,8 @@ namespace Dealer.Sourcing.Api.Private
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Dealer.Sourcing.Api.Private v1"));
             }
+
+            app.UseMiddleware<ExceptionHandlerMiddleware>();
 
             app.UseRouting();
 
